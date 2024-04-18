@@ -13,5 +13,3 @@ int main(void)
     yylex();
     return 0;
 }
-
-yywrap() { return 1; }
